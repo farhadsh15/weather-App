@@ -1,0 +1,56 @@
+.input{
+    margin: 1rem;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+}
+.input input{
+    background-color: #00055b00;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(253, 253, 253);
+    font-size: 2rem;
+    color: rgb(253, 253, 253);
+    margin: 0.5rem;
+}
+.input button{
+    font-size: 2rem;
+    color: white;
+    background-color: red;
+    border-radius: 25px;
+    margin: 0.5rem;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgb(156, 156, 156);
+}
+.input button:hover{
+    box-shadow: 0 0 15px rgb(156, 156, 156);
+}
+.input button:active{
+    border: 3px solid black;
+    margin: calc(0.5rem - 1px);
+}
+.input span{
+    color: #fff;
+    font-size: 1.2rem;
+    display: block;
+    margin: 1rem;
+}
+
+@media (max-width: 768px) {
+    .input{
+        margin: 0.2rem;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+    .input input{
+        height: 50px;
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+    .input button{
+        font-size: 1.5rem;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+}
